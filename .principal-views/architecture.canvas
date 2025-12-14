@@ -1,0 +1,472 @@
+{
+  "pv": {
+    "name": "Claude Flow Architecture",
+    "version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "id": "cli",
+      "type": "text",
+      "x": 100,
+      "y": 300,
+      "width": 160,
+      "height": 80,
+      "color": "#4CAF50",
+      "pv": {
+        "nodeType": "cli",
+        "shape": "rounded"
+      }
+    },
+    {
+      "id": "mcp_server",
+      "type": "text",
+      "x": 100,
+      "y": 500,
+      "width": 160,
+      "height": 80,
+      "color": "#2196F3",
+      "pv": {
+        "nodeType": "mcp_server",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "id": "swarm_coordinator",
+      "type": "text",
+      "x": 400,
+      "y": 200,
+      "width": 180,
+      "height": 80,
+      "color": "#FF9800",
+      "pv": {
+        "nodeType": "swarm_coordinator",
+        "shape": "diamond"
+      }
+    },
+    {
+      "id": "task_orchestrator",
+      "type": "text",
+      "x": 400,
+      "y": 400,
+      "width": 180,
+      "height": 80,
+      "color": "#9C27B0",
+      "pv": {
+        "nodeType": "task_orchestrator",
+        "shape": "hexagon"
+      }
+    },
+    {
+      "id": "consensus_manager",
+      "type": "text",
+      "x": 400,
+      "y": 600,
+      "width": 180,
+      "height": 80,
+      "color": "#673AB7",
+      "pv": {
+        "nodeType": "consensus_manager",
+        "shape": "diamond"
+      }
+    },
+    {
+      "id": "specialist_agents",
+      "type": "text",
+      "x": 700,
+      "y": 100,
+      "width": 180,
+      "height": 80,
+      "color": "#F44336",
+      "pv": {
+        "nodeType": "specialist_agent",
+        "shape": "circle"
+      }
+    },
+    {
+      "id": "general_agents",
+      "type": "text",
+      "x": 700,
+      "y": 300,
+      "width": 180,
+      "height": 80,
+      "color": "#E91E63",
+      "pv": {
+        "nodeType": "agent",
+        "shape": "circle"
+      }
+    },
+    {
+      "id": "reasoning_bank",
+      "type": "text",
+      "x": 1000,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "color": "#00BCD4",
+      "pv": {
+        "nodeType": "reasoning_bank",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "id": "agent_db",
+      "type": "text",
+      "x": 1000,
+      "y": 400,
+      "width": 160,
+      "height": 80,
+      "color": "#009688",
+      "pv": {
+        "nodeType": "agent_db",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "id": "swarm_memory",
+      "type": "text",
+      "x": 1000,
+      "y": 600,
+      "width": 160,
+      "height": 80,
+      "color": "#4DB6AC",
+      "pv": {
+        "nodeType": "swarm_memory",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "id": "sparc_specification",
+      "type": "text",
+      "x": 1300,
+      "y": 100,
+      "width": 160,
+      "height": 80,
+      "color": "#795548",
+      "pv": {
+        "nodeType": "specification",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "sparc_pseudocode",
+      "type": "text",
+      "x": 1300,
+      "y": 250,
+      "width": 160,
+      "height": 80,
+      "color": "#8D6E63",
+      "pv": {
+        "nodeType": "pseudocode",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "sparc_architecture",
+      "type": "text",
+      "x": 1300,
+      "y": 400,
+      "width": 160,
+      "height": 80,
+      "color": "#6D4C41",
+      "pv": {
+        "nodeType": "architecture",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "sparc_refinement",
+      "type": "text",
+      "x": 1300,
+      "y": 550,
+      "width": 160,
+      "height": 80,
+      "color": "#5D4037",
+      "pv": {
+        "nodeType": "refinement",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "sparc_completion",
+      "type": "text",
+      "x": 1300,
+      "y": 700,
+      "width": 160,
+      "height": 80,
+      "color": "#4E342E",
+      "pv": {
+        "nodeType": "completion",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "git_integration",
+      "type": "text",
+      "x": 700,
+      "y": 500,
+      "width": 180,
+      "height": 80,
+      "color": "#FFC107",
+      "pv": {
+        "nodeType": "git_integration",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "testing_framework",
+      "type": "text",
+      "x": 700,
+      "y": 700,
+      "width": 180,
+      "height": 80,
+      "color": "#CDDC39",
+      "pv": {
+        "nodeType": "testing_framework",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "github_integration",
+      "type": "text",
+      "x": 1000,
+      "y": 800,
+      "width": 180,
+      "height": 80,
+      "color": "#24292E",
+      "pv": {
+        "nodeType": "github_integration",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "flow_nexus",
+      "type": "text",
+      "x": 1300,
+      "y": 850,
+      "width": 160,
+      "height": 80,
+      "color": "#0366D6",
+      "pv": {
+        "nodeType": "flow_nexus",
+        "shape": "cloud"
+      }
+    },
+    {
+      "id": "performance_monitor",
+      "type": "text",
+      "x": 400,
+      "y": 800,
+      "width": 180,
+      "height": 80,
+      "color": "#FF5722",
+      "pv": {
+        "nodeType": "performance_monitor",
+        "shape": "diamond"
+      }
+    },
+    {
+      "id": "health_checker",
+      "type": "text",
+      "x": 100,
+      "y": 700,
+      "width": 160,
+      "height": 80,
+      "color": "#D32F2F",
+      "pv": {
+        "nodeType": "health_checker",
+        "shape": "diamond"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "cli_to_mcp",
+      "fromNode": "cli",
+      "toNode": "mcp_server",
+      "color": "#4CAF50",
+      "pv": {
+        "edgeType": "commands"
+      }
+    },
+    {
+      "id": "cli_to_swarm",
+      "fromNode": "cli",
+      "toNode": "swarm_coordinator",
+      "color": "#4CAF50",
+      "pv": {
+        "edgeType": "commands"
+      }
+    },
+    {
+      "id": "mcp_to_swarm",
+      "fromNode": "mcp_server",
+      "toNode": "swarm_coordinator",
+      "color": "#2196F3",
+      "pv": {
+        "edgeType": "events"
+      }
+    },
+    {
+      "id": "swarm_to_orchestrator",
+      "fromNode": "swarm_coordinator",
+      "toNode": "task_orchestrator",
+      "color": "#9C27B0",
+      "pv": {
+        "edgeType": "orchestrates"
+      }
+    },
+    {
+      "id": "orchestrator_to_consensus",
+      "fromNode": "task_orchestrator",
+      "toNode": "consensus_manager",
+      "color": "#3F51B5",
+      "pv": {
+        "edgeType": "consensus"
+      }
+    },
+    {
+      "id": "swarm_to_specialists",
+      "fromNode": "swarm_coordinator",
+      "toNode": "specialist_agents",
+      "color": "#673AB7",
+      "pv": {
+        "edgeType": "coordinates"
+      }
+    },
+    {
+      "id": "orchestrator_to_general",
+      "fromNode": "task_orchestrator",
+      "toNode": "general_agents",
+      "color": "#9C27B0",
+      "pv": {
+        "edgeType": "orchestrates"
+      }
+    },
+    {
+      "id": "specialists_to_reasoning",
+      "fromNode": "specialist_agents",
+      "toNode": "reasoning_bank",
+      "color": "#009688",
+      "pv": {
+        "edgeType": "memory_access"
+      }
+    },
+    {
+      "id": "general_to_agentdb",
+      "fromNode": "general_agents",
+      "toNode": "agent_db",
+      "color": "#4DB6AC",
+      "pv": {
+        "edgeType": "vector_search"
+      }
+    },
+    {
+      "id": "agents_to_swarm_memory",
+      "fromNode": "general_agents",
+      "toNode": "swarm_memory",
+      "color": "#009688",
+      "pv": {
+        "edgeType": "memory_access"
+      }
+    },
+    {
+      "id": "sparc_workflow_1",
+      "fromNode": "sparc_specification",
+      "toNode": "sparc_pseudocode",
+      "color": "#795548",
+      "pv": {
+        "edgeType": "workflow"
+      }
+    },
+    {
+      "id": "sparc_workflow_2",
+      "fromNode": "sparc_pseudocode",
+      "toNode": "sparc_architecture",
+      "color": "#795548",
+      "pv": {
+        "edgeType": "workflow"
+      }
+    },
+    {
+      "id": "sparc_workflow_3",
+      "fromNode": "sparc_architecture",
+      "toNode": "sparc_refinement",
+      "color": "#795548",
+      "pv": {
+        "edgeType": "workflow"
+      }
+    },
+    {
+      "id": "sparc_workflow_4",
+      "fromNode": "sparc_refinement",
+      "toNode": "sparc_completion",
+      "color": "#795548",
+      "pv": {
+        "edgeType": "workflow"
+      }
+    },
+    {
+      "id": "agents_to_git",
+      "fromNode": "general_agents",
+      "toNode": "git_integration",
+      "color": "#24292E",
+      "pv": {
+        "edgeType": "api_call"
+      }
+    },
+    {
+      "id": "agents_to_testing",
+      "fromNode": "specialist_agents",
+      "toNode": "testing_framework",
+      "color": "#4CAF50",
+      "pv": {
+        "edgeType": "commands"
+      }
+    },
+    {
+      "id": "git_to_github",
+      "fromNode": "git_integration",
+      "toNode": "github_integration",
+      "color": "#24292E",
+      "pv": {
+        "edgeType": "api_call"
+      }
+    },
+    {
+      "id": "github_to_flow_nexus",
+      "fromNode": "github_integration",
+      "toNode": "flow_nexus",
+      "color": "#0366D6",
+      "pv": {
+        "edgeType": "webhook"
+      }
+    },
+    {
+      "id": "memory_to_reasoning",
+      "fromNode": "swarm_memory",
+      "toNode": "reasoning_bank",
+      "color": "#00BCD4",
+      "pv": {
+        "edgeType": "data_flow"
+      }
+    },
+    {
+      "id": "performance_monitoring",
+      "fromNode": "performance_monitor",
+      "toNode": "swarm_coordinator",
+      "color": "#FF5722",
+      "pv": {
+        "edgeType": "monitors"
+      }
+    },
+    {
+      "id": "health_checking",
+      "fromNode": "health_checker",
+      "toNode": "cli",
+      "color": "#D32F2F",
+      "pv": {
+        "edgeType": "reports"
+      }
+    }
+  ]
+}

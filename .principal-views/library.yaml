@@ -1,0 +1,256 @@
+version: '1.0.0'
+name: 'Claude Flow Component Library'
+
+nodeComponents:
+  cli:
+    description: 'Command-line interface for Claude Flow'
+    color: '#4CAF50'
+    icon: 'terminal'
+    tags: ['interface', 'core']
+    shape: 'rounded'
+
+  mcp_server:
+    description: 'Model Context Protocol server interface'
+    color: '#2196F3'
+    icon: 'server'
+    tags: ['interface', 'protocol']
+    shape: 'cylinder'
+
+  swarm_coordinator:
+    description: 'Multi-agent swarm coordination system'
+    color: '#FF9800'
+    icon: 'hub'
+    tags: ['coordination', 'swarm']
+    shape: 'diamond'
+
+  task_orchestrator:
+    description: 'Task orchestration and execution engine'
+    color: '#9C27B0'
+    icon: 'assignment'
+    tags: ['coordination', 'orchestration']
+    shape: 'hexagon'
+
+  consensus_manager:
+    description: 'Consensus building and decision making'
+    color: '#673AB7'
+    icon: 'groups'
+    tags: ['coordination', 'consensus']
+    shape: 'diamond'
+
+  agent:
+    description: 'Generic AI agent instance'
+    color: '#E91E63'
+    icon: 'smart_toy'
+    tags: ['agent', 'ai']
+    shape: 'circle'
+
+  specialist_agent:
+    description: 'Specialized domain-specific agent'
+    color: '#F44336'
+    icon: 'psychology'
+    tags: ['agent', 'specialist', 'domain']
+    shape: 'circle'
+
+  reasoning_bank:
+    description: 'WASM-powered neural memory system'
+    color: '#00BCD4'
+    icon: 'memory'
+    tags: ['memory', 'neural', 'wasm']
+    shape: 'cylinder'
+
+  agent_db:
+    description: 'Vector database for agent knowledge'
+    color: '#009688'
+    icon: 'storage'
+    tags: ['memory', 'database', 'vector']
+    shape: 'cylinder'
+
+  swarm_memory:
+    description: 'Collective swarm memory management'
+    color: '#4DB6AC'
+    icon: 'share'
+    tags: ['memory', 'collective', 'swarm']
+    shape: 'cylinder'
+
+  specification:
+    description: 'Requirements specification phase'
+    color: '#795548'
+    icon: 'description'
+    tags: ['methodology', 'sparc', 'phase']
+    shape: 'rectangle'
+
+  pseudocode:
+    description: 'Algorithm design phase'
+    color: '#8D6E63'
+    icon: 'code'
+    tags: ['methodology', 'sparc', 'phase']
+    shape: 'rectangle'
+
+  architecture:
+    description: 'System architecture design phase'
+    color: '#6D4C41'
+    icon: 'architecture'
+    tags: ['methodology', 'sparc', 'phase']
+    shape: 'rectangle'
+
+  refinement:
+    description: 'TDD implementation phase'
+    color: '#5D4037'
+    icon: 'build'
+    tags: ['methodology', 'sparc', 'phase']
+    shape: 'rectangle'
+
+  completion:
+    description: 'Integration and completion phase'
+    color: '#4E342E'
+    icon: 'check_circle'
+    tags: ['methodology', 'sparc', 'phase']
+    shape: 'rectangle'
+
+  git_integration:
+    description: 'Git version control integration'
+    color: '#FFC107'
+    icon: 'git'
+    tags: ['development', 'vcs', 'git']
+    shape: 'rectangle'
+
+  testing_framework:
+    description: 'Comprehensive testing framework'
+    color: '#CDDC39'
+    icon: 'bug_report'
+    tags: ['development', 'testing', 'quality']
+    shape: 'rectangle'
+
+  github_integration:
+    description: 'GitHub API integration'
+    color: '#24292E'
+    icon: 'github'
+    tags: ['integration', 'external', 'github']
+    shape: 'rectangle'
+
+  flow_nexus:
+    description: 'Flow-Nexus cloud platform integration'
+    color: '#0366D6'
+    icon: 'cloud'
+    tags: ['integration', 'cloud', 'external']
+    shape: 'cloud'
+
+  performance_monitor:
+    description: 'Performance monitoring and analytics'
+    color: '#FF5722'
+    icon: 'speed'
+    tags: ['monitoring', 'performance', 'analytics']
+    shape: 'diamond'
+
+  health_checker:
+    description: 'System health and diagnostics'
+    color: '#D32F2F'
+    icon: 'health_and_safety'
+    tags: ['monitoring', 'health', 'diagnostics']
+    shape: 'diamond'
+
+edgeComponents:
+  commands:
+    description: 'Command execution flow'
+    color: '#4CAF50'
+    directed: true
+    style: 'solid'
+    width: 2
+
+  events:
+    description: 'Event-driven communication'
+    color: '#2196F3'
+    directed: true
+    style: 'dashed'
+    width: 2
+
+  messages:
+    description: 'Message passing between agents'
+    color: '#FF9800'
+    directed: true
+    style: 'solid'
+    width: 2
+
+  orchestrates:
+    description: 'Orchestration relationship'
+    color: '#9C27B0'
+    directed: true
+    style: 'solid'
+    width: 3
+
+  coordinates:
+    description: 'Coordination relationship'
+    color: '#673AB7'
+    directed: false
+    style: 'solid'
+    width: 2
+
+  consensus:
+    description: 'Consensus building edge'
+    color: '#3F51B5'
+    directed: false
+    style: 'double'
+    width: 3
+
+  data_flow:
+    description: 'Data flow between components'
+    color: '#00BCD4'
+    directed: true
+    style: 'solid'
+    width: 2
+
+  memory_access:
+    description: 'Memory read/write access'
+    color: '#009688'
+    directed: false
+    style: 'dashed'
+    width: 2
+
+  vector_search:
+    description: 'Vector similarity search'
+    color: '#4DB6AC'
+    directed: true
+    style: 'dotted'
+    width: 2
+
+  workflow:
+    description: 'Workflow progression'
+    color: '#795548'
+    directed: true
+    style: 'solid'
+    width: 3
+
+  transition:
+    description: 'State transition'
+    color: '#8D6E63'
+    directed: true
+    style: 'solid'
+    width: 2
+
+  api_call:
+    description: 'External API integration'
+    color: '#24292E'
+    directed: true
+    style: 'solid'
+    width: 2
+
+  webhook:
+    description: 'Webhook integration'
+    color: '#0366D6'
+    directed: true
+    style: 'dashed'
+    width: 2
+
+  monitors:
+    description: 'Monitoring relationship'
+    color: '#FF5722'
+    directed: true
+    style: 'dotted'
+    width: 1
+
+  reports:
+    description: 'Reporting and telemetry'
+    color: '#D32F2F'
+    directed: true
+    style: 'dashed'
+    width: 1
